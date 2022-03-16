@@ -1,4 +1,4 @@
-var trafigeCikis = new Date('06/11/2014');
+var trafigeCikis = new Date('06/11/2017');
 trafigeCikis.setHours(0,0,0,0);
 var trafiktekiMs = Date.now() - trafigeCikis.getTime();
 var trafiktekiGun = Math.floor(trafiktekiMs/(1000*60*60*24));
