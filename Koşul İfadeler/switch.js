@@ -1,5 +1,6 @@
 // "switch" sorgusu , farklı koşullar için farklı eylemler oluşturmak için kullanılır.
-/* ilk olarak bir ifade belirlenir. Daha sonra "case" terimi kullanılarak belirtilen ifade için koşullar oluşturulur. Eğer ifade bu koşulu sağlıyoe ise o "case" bloğundaki kodlar çalışır.
+/* ilk olarak bir ifade belirlenir. Daha sonra "case" terimi kullanılarak belirtilen ifade için koşullar oluşturulur. 
+Eğer ifade bu koşulu sağlıyoe ise o "case" bloğundaki kodlar çalışır.
 
 **  "Break" ifadesi , "case" bloğundaki kodlar çalıştıktan sonra switch sorgusundan çıkmak için kullanılır.Bu şekilde diğer "case" ifadelerini kontrol etmeden sorgudan çıkar. Son sorgu ifadesinden sonra bu ifadenin kullanılması şart değildir.
 */
