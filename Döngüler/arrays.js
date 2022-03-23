@@ -68,6 +68,7 @@ map() yöntemi, çağıran dizideki her öğede sağlanan bir işlevi çağırma
 let val = people.map(function(item){
     return item.firstName + ' ' + item.lastName + ' '+ item.age;
 });
+
 console.log(val);
 
 
