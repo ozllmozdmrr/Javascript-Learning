@@ -98,7 +98,7 @@ for (let i=0;i<10;i++)
 {
     for (let j=0;j<10;j++){
         val +=' * '
-        // console.log(`İ : ${i} j:${j}`);
+        // console.log(`i : ${i} j:${j}`);
     }
     val+='\n'
 }
