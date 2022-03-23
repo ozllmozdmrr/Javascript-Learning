@@ -9,7 +9,7 @@ Aşağıdaki örnekte;
     (i++) içerisinde bu değişken 1 arttılmıştır.
     
 */
-/* for loop
+ for loop
 for (let i=1; i<=10; i++){                               
    
     if(i==3){
@@ -24,10 +24,9 @@ for (let i=1; i<=10; i++){
     console.log(i)
 }
 
-*********************************************************************************************************************** */
 
 /* while loop
-"while" döngüsü için bir koşul belirlenir. Bu koşul ifadeninin sonucu true olduğu sürece döngü çalışır.
+"while" döngüsü için bir koşul belirlenir. Bu koşul ifadeninin sonucu true olduğu sürece döngü çalışır.*/
 
 var x=1;
 while(x<5) {
@@ -35,8 +34,8 @@ while(x<5) {
     x++;
 }
 
-"x" değişkenine 1 değeri atanmıştır."while"döngüsü içerisindeki koşula göre "x"değeri 5 sayısından küçük olduğu sürece 
-döngü içerisindeki kod çalışacaktır.Sonsuz döngüye takılmamak için döngü içerisinde "x" değeri 1 arttırlmıştır.
+/*"x" değişkenine 1 değeri atanmıştır."while"döngüsü içerisindeki koşula göre "x"değeri 5 sayısından küçük olduğu sürece 
+döngü içerisindeki kod çalışacaktır.Sonsuz döngüye takılmamak için döngü içerisinde "x" değeri 1 arttırlmıştır.*/
 
 
 for (let i=0; i<10;i++){
@@ -48,18 +47,18 @@ while(i<10){
     console.log(i);
     i++;
 }
-****************************************************************************************************************************/
+
 
 /* *** ** *** *** *** ** **** 
     ---- "Break" ve "Contınue" İfadesi
         "break" ifadesi döngüden çıkmak için kullanılır.
         "contınue" ifadesi döngünün o adımını atlamak için kullanılır.
-* *** ** *** *** *** ** **** /
+* *** ** *** *** *** ** ****/
 
 
-/* do-while loop
+// do-while loop
 
-"do/while" döngüsünde koşula bakılmadan kod bloğu bir kez çalışır.Ardından koşul sorgulanır ve eğer koşul sağlanıyorsa kod bloğu çalışmaya devam eder.
+//"do/while" döngüsünde koşula bakılmadan kod bloğu bir kez çalışır.Ardından koşul sorgulanır ve eğer koşul sağlanıyorsa kod bloğu çalışmaya devam eder.
 
 let i=0; 
 do{
@@ -67,18 +66,20 @@ do{
     i++;
 
 }while(i<10)
-*/
+
 
 // "i" 10 dan başlayıp ve "i" 0 dan büyük olduğu sürece dönsün ve her seferinde bir azalsın !!
-// for (let i=10;i>0;i--){
-//     console.log(i);
-// }
+
+for (let i=10;i>0;i--){
+console.log(i);
+}
 
 let toplam = 0;
 for (let i=10;i>0;i--){
     toplam += i;
 }
 console.log(toplam)
+
 
 // 10 ile 1 arasındaki çift sayıların çarpımı
 
@@ -90,6 +91,7 @@ for (let i=10;i>0;i--){
    
 }
 console.log(sonuc)
+
 
 // İç İçe FOR Döngüleri
 
