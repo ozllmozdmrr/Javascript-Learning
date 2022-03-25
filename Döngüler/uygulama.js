@@ -20,6 +20,6 @@ while(hak>0){
     }
 
     if(hak==0){
-        console.log('hakkınız bitti  sayı :'+sayi);
+        console.log('hakkınız bitti  sayı:'+sayi);
     }
 }
