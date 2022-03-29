@@ -9,13 +9,14 @@ function abc (){
 val = window;
 
 // ***  alert metodu  ***
+
 alert('Do you really want to leave?');
 /*Alert komutu kullanıcıyı bilgilendirmek için uyarı pencereleri oluşturma amaçlı kullanılır.*/
 
 // *** prompt metodu ***
 /* WEB sayfasına dışarıdan veri girişi yapabilmek için kullanılır. Prompt ile alınan bilgi string tipindedir. Herhangi bir değer girilmez ise geriye dönecek değer null olur. Aşağıdaki şekilde kullanılabilir:*/
 
-// val = prompt('bir sayı giriniz');
+ val = prompt('bir sayı giriniz');
 
 
 // *** Confirm metodu ***
