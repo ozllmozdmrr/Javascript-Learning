@@ -39,3 +39,13 @@ console.log(document.querySelector('li:nth-child(1)').textContent ='Ozlem');
 console.log(document.querySelector('li:nth-child(2)').textContent ='Yigit');
 console.log(document.querySelector('li:nth-child(3)').textContent ='Alperen');
 console.log(document.querySelector('li:nth-child(4)').textContent ='Ezgi');
+
+
+
+
+
+
+
+
+
+
