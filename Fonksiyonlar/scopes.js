@@ -42,7 +42,6 @@ if(true){
 }
 
 // ES6 ile gelen let ve const block scope oluşturur.
-
 var i = 1;
 for(var i=0; i<10;i++){
     console.log('i',i);
