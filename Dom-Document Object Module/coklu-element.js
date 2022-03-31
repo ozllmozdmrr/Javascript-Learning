@@ -50,6 +50,7 @@ val = document.getElementsByClassName('list-group-item');
 val = document.querySelectorAll('li:nth-child(odd)'); // odd tekil seçimler
 val = document.querySelectorAll('li:nth-child(even)'); // even çoğul seçimler
 
+
 val.forEach(function(item){
     item.style.background = 'yellow';
 });
