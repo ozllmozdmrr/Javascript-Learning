@@ -20,29 +20,26 @@ const ul = document.querySelector('#task-list');
 //     console.log(`event type : ${event.type}`);
 // }
 
-// // mouse down
-// btn.addEventListener('mousedown',eventHandler);
+//  mouse down
+ btn.addEventListener('mousedown',eventHandler);
 
-// // mouse up
-// btn.addEventListener('mouseup',eventHandler);
+//  mouse up
+ btn.addEventListener('mouseup',eventHandler);
 
-// // mouse enter 
-// ul.addEventListener('mouseenter',eventHandler);
+//  mouse enter 
+ ul.addEventListener('mouseenter',eventHandler);
 
-// // mouse leave
-// ul.addEventListener('mouseleave',eventHandler);
+// mouse leave
+ ul.addEventListener('mouseleave',eventHandler);
 
-// // mouse over
-// ul.addEventListener('mouseover',eventHandler);
+// mouse over
+ ul.addEventListener('mouseover',eventHandler);
 
-// // mouse out
-// ul.addEventListener('mouseout',eventHandler);
+//  mouse out
+ ul.addEventListener('mouseout',eventHandler);
 
 // mouse move
 ul.addEventListener('mousemove', eventHandler);
-
-
-
 
 
 function eventHandler(event){
