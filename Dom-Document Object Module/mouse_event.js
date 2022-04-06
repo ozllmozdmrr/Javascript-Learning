@@ -4,21 +4,20 @@ const btn = document.querySelector('#btnDeleteAll');
 const ul = document.querySelector('#task-list');
 
 
-// // click
-// btn.addEventListener('click',eventHandler)
-// ul.addEventListener('click',eventHandler);
+//  click
+ btn.addEventListener('click',eventHandler)
+ ul.addEventListener('click',eventHandler);
 
-// function eventHandler(event){
-//     console.log(`event type : ${event.type}`);
-// }
+ function eventHandler(event){
+     console.log(`event type : ${event.type}`);
+ }
 
 //  double click
+ btn.addEventListener('dblclick',eventHandler);
 
-// btn.addEventListener('dblclick',eventHandler);
-
-// function eventHandler(event){
-//     console.log(`event type : ${event.type}`);
-// }
+ function eventHandler(event){
+     console.log(`event type : ${event.type}`);
+ }
 
 //  mouse down
  btn.addEventListener('mousedown',eventHandler);
