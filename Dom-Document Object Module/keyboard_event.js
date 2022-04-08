@@ -26,5 +26,5 @@ function eventHandler(e){
 
     // e.target.style.backgroundColor='blue'
 
-    e.preventDefault();
+    // e.preventDefault();
 }
