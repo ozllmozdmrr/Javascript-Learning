@@ -5,21 +5,20 @@ const container = document.querySelector('.container');
 
 
 // // Event Bubbling /*  içten dışa doğru   */
-// form.addEventListener('click',function(e){
-//     console.log('form');
-//     e.stopPropagation();
-// });
+ form.addEventListener('click',function(e){
+     console.log('form');
+     e.stopPropagation();
+ });
 
-// cardBody.addEventListener('click',function(e){
-//     console.log('card body');
-//     e.stopPropagation();
-// });
+ cardBody.addEventListener('click',function(e){
+     console.log('card body');
+     e.stopPropagation();
+ });
 
-// card.addEventListener('click',function(e){
-//     console.log('card');
-//     e.stopPropagation();
-
-// });
+ card.addEventListener('click',function(e){
+     console.log('card');
+     e.stopPropagation();
+ });
 
 // container.addEventListener('click',function(e){
 //     console.log('container');
