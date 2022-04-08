@@ -25,9 +25,6 @@ const container = document.querySelector('.container');
     e.stopPropagation();
  });
 
-
-
-
 // Event Capturing  // Dıştan içeri doğru 
 
  form.addEventListener('click',function(e){
