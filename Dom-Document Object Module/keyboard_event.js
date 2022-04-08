@@ -8,7 +8,7 @@ const select = document.querySelector('#select');
 
  input.addEventListener('keydown',eventHandler);  // Tuşa basıldığında tuşa basma gerçekleşir ve tuşa uzun süre basıldığında otomatik olarak tekrarlanır.
  input.addEventListener('keyup',eventHandler); // Anahtar serbest bırakıldığında keyup gerçekleşir.
-// input.addEventListener('keypress',eventHandler); // Bu olay, bir alfabetik, sayısal veya noktalama tuşuna basıldığında tetiklenir.
+ input.addEventListener('keypress',eventHandler); // Bu olay, bir alfabetik, sayısal veya noktalama tuşuna basıldığında tetiklenir.
 // input.addEventListener('focus',eventHandler); // Mevcut pencereye odaklanır.
 // input.addEventListener('blur', eventHandler);  // Mevcut pencereden odağı kaldırır.
 // input.addEventListener('cut',eventHandler); //kopyala
