@@ -53,13 +53,13 @@ const container = document.querySelector('.container');
 
 /*************** ÖRNEK *****************/
 
-// const deleteItems = document.querySelectorAll('.fa-times');
+ const deleteItems = document.querySelectorAll('.fa-times');
 
-// deleteItems.forEach(function(item){
-//     item.addEventListener('click',function(e){
-//         console.log(e.target);
-//     })
-// });
+ deleteItems.forEach(function(item){
+     item.addEventListener('click',function(e){
+         console.log(e.target);
+    })
+ });
 
 /******** VEYA  ÜST ELEMANDAN ALT ELEMENA  *********/ 
 
