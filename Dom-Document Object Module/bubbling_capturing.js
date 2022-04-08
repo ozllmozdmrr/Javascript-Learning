@@ -20,10 +20,10 @@ const container = document.querySelector('.container');
      e.stopPropagation();
  });
 
-// container.addEventListener('click',function(e){
-//     console.log('container');
-//     e.stopPropagation();
-// });
+ container.addEventListener('click',function(e){
+     console.log('container');
+    e.stopPropagation();
+ });
 
 
 
