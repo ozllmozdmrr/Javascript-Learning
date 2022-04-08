@@ -73,6 +73,7 @@ ul.addEventListener('click',function(e){  // ul 'ye event ekledik , ul den iç e
     // console.log(e.target);
     console.log(e.target.parentElement);
 
+    
     e.preventDefault();
    }
 });
