@@ -23,10 +23,20 @@
 			</div>
 			<div class="card-body">
 				<form id="addTaskForm">
+					<select class="form-control"
+					id="select">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+				
+								</select>
+
 					<div class="input-group mb-3">
 						<input id="txtTaskName" name="taskName" type="text" class="form-control" placeholder="Type a new task" aria-describedby="btnAddNewTask">
 						<div class="input-group-append">
-							<button class="btn btn-primary" type="button" id="btnAddNewTask">
+							<button class="btn btn-primary" type="submit" id="btnAddNewTask">
 								<i class="fas fa-plus"></i>
 							</button>
 						</div>
