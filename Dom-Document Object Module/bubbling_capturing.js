@@ -40,15 +40,15 @@ const container = document.querySelector('.container');
      e.stopPropagation();
  },true);
 
-// card.addEventListener('click',function(e){
-//     console.log('card');
-//     e.stopPropagation();
-// },true);
+ card.addEventListener('click',function(e){
+     console.log('card');
+     e.stopPropagation();
+ },true);
 
-// container.addEventListener('click',function(e){
-//     console.log('container');
-//     e.stopPropagation();
-// },true);
+ container.addEventListener('click',function(e){
+     console.log('container');
+     e.stopPropagation();
+ },true);
 
 
 /*************** ÖRNEK *****************/
