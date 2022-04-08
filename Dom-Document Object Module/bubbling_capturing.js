@@ -30,15 +30,15 @@ const container = document.querySelector('.container');
 
 // Event Capturing  // Dıştan içeri doğru 
 
-// form.addEventListener('click',function(e){
-//     console.log('form');
-//     e.stopPropagation();
-// },true);
+ form.addEventListener('click',function(e){
+     console.log('form');
+     e.stopPropagation();
+ },true);
 
-// cardBody.addEventListener('click',function(e){
-//     console.log('card body');
-//     e.stopPropagation();
-// },true);
+ cardBody.addEventListener('click',function(e){
+     console.log('card body');
+     e.stopPropagation();
+ },true);
 
 // card.addEventListener('click',function(e){
 //     console.log('card');
