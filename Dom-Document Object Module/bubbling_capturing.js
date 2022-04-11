@@ -5,62 +5,58 @@ const container = document.querySelector('.container');
 
 
 // // Event Bubbling /*  içten dışa doğru   */
-// form.addEventListener('click',function(e){
-//     console.log('form');
-//     e.stopPropagation();
-// });
+ form.addEventListener('click',function(e){
+     console.log('form');
+     e.stopPropagation();
+ });
 
-// cardBody.addEventListener('click',function(e){
-//     console.log('card body');
-//     e.stopPropagation();
-// });
+ cardBody.addEventListener('click',function(e){
+     console.log('card body');
+     e.stopPropagation();
+ });
 
-// card.addEventListener('click',function(e){
-//     console.log('card');
-//     e.stopPropagation();
+ card.addEventListener('click',function(e){
+     console.log('card');
+     e.stopPropagation();
+ });
 
-// });
-
-// container.addEventListener('click',function(e){
-//     console.log('container');
-//     e.stopPropagation();
-// });
-
-
-
+ container.addEventListener('click',function(e){
+     console.log('container');
+    e.stopPropagation();
+ });
 
 // Event Capturing  // Dıştan içeri doğru 
 
-// form.addEventListener('click',function(e){
-//     console.log('form');
-//     e.stopPropagation();
-// },true);
+ form.addEventListener('click',function(e){
+     console.log('form');
+     e.stopPropagation();
+ },true);
 
-// cardBody.addEventListener('click',function(e){
-//     console.log('card body');
-//     e.stopPropagation();
-// },true);
+ cardBody.addEventListener('click',function(e){
+     console.log('card body');
+     e.stopPropagation();
+ },true);
 
-// card.addEventListener('click',function(e){
-//     console.log('card');
-//     e.stopPropagation();
-// },true);
+ card.addEventListener('click',function(e){
+     console.log('card');
+     e.stopPropagation();
+ },true);
 
-// container.addEventListener('click',function(e){
-//     console.log('container');
-//     e.stopPropagation();
-// },true);
+ container.addEventListener('click',function(e){
+     console.log('container');
+     e.stopPropagation();
+ },true);
 
 
 /*************** ÖRNEK *****************/
 
-// const deleteItems = document.querySelectorAll('.fa-times');
+ const deleteItems = document.querySelectorAll('.fa-times');
 
-// deleteItems.forEach(function(item){
-//     item.addEventListener('click',function(e){
-//         console.log(e.target);
-//     })
-// });
+ deleteItems.forEach(function(item){
+     item.addEventListener('click',function(e){
+         console.log(e.target);
+    })
+ });
 
 /******** VEYA  ÜST ELEMANDAN ALT ELEMENA  *********/ 
 
